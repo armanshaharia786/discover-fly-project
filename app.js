@@ -46,7 +46,7 @@ function decreaseSpinner(itemMinus) {
     }
 }
 
-//Total Price Count
+//Total Price 
 function grandTotal() {
     let getFirstClassPrice = firstClassTicket.value * 150;
     let getEconomyPrice = economyTicket.value * 100;
@@ -77,7 +77,7 @@ document.querySelector('.book-now').addEventListener('click', function () {
         document.querySelector('.booking-details').style.display = 'block';
 
         grandTotal();
-        //increaseSpinner();
+        //increaseSpinne
 
         document.querySelector('.user-flying-from').textContent = fryingFrom;
         document.querySelector('.user-flying-to').textContent = fryingTo;
